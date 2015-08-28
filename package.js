@@ -1,10 +1,10 @@
 Package.describe({
-  name: 'visudare:disqus',
+  name: 'greggman:disqus',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: 'Reactive Disqus Template. Just adding {{> disqus [options]}} wherever you want.',
   // URL to the Git repository containing the source code for this package.
-  git: 'https://github.com/Visudare/meteor-disqus.git',
+  git: 'https://github.com/greggman/meteor-disqus.git',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
@@ -21,6 +21,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('visudare:disqus');
+  api.use('greggman:disqus');
   api.addFiles('disqus-tests.js');
 });
