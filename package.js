@@ -19,8 +19,3 @@ Package.onUse(function(api) {
   api.addFiles('disqus.js');
 });
 
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('greggman:disqus');
-  api.addFiles('disqus-tests.js');
-});
