@@ -2,7 +2,7 @@ Package.describe({
   name: 'greggman:disqus',
   version: '0.0.2',
   // Brief, one-line summary of the package.
-  summary: 'Reactive Disqus Template. Just adding {{> disqus [options]}} wherever you want and issues I ran into dealt with from visudare:disqus and obvio171:disqus.',
+  summary: 'Reactive Disqus Template with out the issues I ran into in visudare:disqus and obvio171:disqus.',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/greggman/meteor-disqus.git',
   // By default, Meteor will default to using README.md for documentation.
